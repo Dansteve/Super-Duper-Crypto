@@ -29,5 +29,5 @@ export class InformationalQuizPage {
       .create(SidemeunPage);
     profileModal.present();
   }
-
+  
 }
