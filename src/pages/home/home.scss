@@ -1,3 +1,65 @@
 page-home {
-
+    .scroll-content {
+        background: url("../assets/imgs/backgound.png");
+        background-size: cover;
+    }
+    .card-1 {
+        padding: 2px;
+        background: #5c60e6;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.78);
+        border-radius: 8px 8px 0 0;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .card-2 {
+        padding: 2px;
+        background-image: linear-gradient(0deg, #1554ac 1%, #5c60e6 98%);
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.78);
+        border-radius: 8px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .card-3 {
+        padding: 2px;
+        background: #1554ac;
+        box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.78);
+        border-radius: 0 0 8px 8px;
+        text-align: center;
+        margin-bottom: 15px;
+    }
+    .crypto {
+        font-family: SourceSansPro-Bold;
+        font-size: 39px;
+        color: #ffffff;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    .btc {
+        font-family: HelveticaNeue-Thin;
+        font-size: 37px;
+        color: #ffffff;
+        letter-spacing: 0;
+        text-align: center;
+    }
+    p {
+        margin: 0px;
+    }
+    .det {
+        font-family: HelveticaNeue-Thin;
+        font-size: 13px;
+        margin-bottom: 10px;
+        padding-bottom: 10px;
+        color: #ffffff;
+        letter-spacing: 0;
+    }
+    .timer-box {
+        // background: url("../assets/imgs/time-box.png");
+        // height: 78px;
+        // background-size: cover;
+        background: #ffffff;
+        -webkit-box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+        box-shadow: inset 0 1px 5px 0 rgba(0, 0, 0, 0.5);
+        border-radius: 7px 5px 5px 100px 12px 12px 12px 12px 100px 7px 7px 7px;
+        height: 55px;
+    }
 }

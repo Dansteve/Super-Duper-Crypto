@@ -1,17 +1,44 @@
-<ion-header>
+<!-- <ion-header>
   <ion-navbar>
     <ion-title>Home</ion-title>
   </ion-navbar>
-</ion-header>
+</ion-header> -->
 
 <ion-content padding>
-  <h2>Welcome to Ionic!</h2>
-  <p>
-    This starter project comes with simple tabs-based layout for apps
-    that are going to primarily use a Tabbed UI.
-  </p>
-  <p>
-    Take a look at the <code>src/pages/</code> directory to add or change tabs,
-    update any existing page or create new pages.
-  </p>
+    <div class="center">
+        <img src="assets/imgs/sdt.png">
+    </div>
+    <div class="center">
+        <img src="assets/imgs/crypto.png">
+    </div>
+
+    <div class="card-1" (click)="goToLogoQuiz()">
+        <p class="crypto" style="margin-bottom: 15px;">Crypto Logo Quiz</p>
+        <img src="assets/imgs/bitmap.png" style="margin-bottom: 15px;">
+    </div>
+
+    <div class="card-2" (click)="goToCodeQuiz()">
+        <p class="crypto" style="margin-bottom: 15px;">Currency Code Quiz</p>
+        <p class="btc" style="margin-bottom: 15px;">BTC</p>
+    </div>
+
+    <div class="card-3" (click)="goToInfromationQuiz()">
+        <p class="crypto" style="margin-bottom: 15px;">Informational Quiz</p>
+        <p class="det" style="margin-bottom: 15px;">This cryptocurrency was the first. It uses peer-to-peer technology to operate with no central authority banks; managing transactions and the issuing of more coins is carried out collectively by the network.</p>
+    </div>
+
+    <!-- <ion-row>
+        <ion-col col-2>
+            <ion-icon name="time" style="font-size: 6rem;"></ion-icon>
+        </ion-col>
+        <ion-col>
+            <div class="timer-box">
+                <div style="font-family:.SFNSDisplay;
+font-size:59px;
+color:#3a3d88;
+letter-spacing:0;
+text-align:center;">11: <br> 59</div>
+            </div>
+        </ion-col>
+    </ion-row> -->
 </ion-content>
