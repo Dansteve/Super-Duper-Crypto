@@ -1,3 +1,11 @@
 page-achievements {
-
+    .toolbar {
+        min-height: 110px;
+    }
+    .back-button {
+        z-index: 1;
+    }
+    .toolbar-content {
+        position: absolute;
+    }
 }

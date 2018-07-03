@@ -10,6 +10,7 @@ import { SidemeunPage } from "../sidemeun/sidemeun";
  * Ionic pages and navigation.
  */
 
+
 @IonicPage()
 @Component({
   selector: 'page-informational-quiz',
