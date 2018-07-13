@@ -10,13 +10,26 @@ page-sidemeun {
             text-align: center;
             text-transform: uppercase;
         }
+
     }
-    .backgrounder,
-    {
+    .set {
+        span {
+            font-family: HelveticaNeue-Light;  
+        font-size: 18px;
+            color: #ffffff;
+            letter-spacing: 0;
+            text-align: center;
+            text-transform: uppercase;
+        }
+    }
+    .backgrounder{
         background: url("../assets/imgs/backgound_with_buttom.jpg");
         background-size: cover;
         padding: 10px;
         border-radius: 0px 0px 20% 20%;
+    }
+    .padder{
+        padding: 15px 46px !important;
     }
     .scroll-content {
         background: #5ea3c6;

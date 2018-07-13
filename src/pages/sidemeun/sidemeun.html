@@ -8,6 +8,7 @@
 <!-- <ion-menu type="push" [content]="content"> -->
 <ion-content>
     <div class="backgrounder">
+    <div class="padder">
         <button ion-button block brand-color class="menu-button" (click)="goToHome()">
       MAIN MENU
     </button>
@@ -24,15 +25,16 @@
       ACHIEVEMENTS
     </button>
 
-        <button ion-button block brand-color class="menu-button" (click)="goToUnlockedPage()">
+        <button ion-button block brand-color class="menu-button set" (click)="goToUnlockedPage()">
       UNLOCKED - DID YOU KNOW
     </button>
 
         <button ion-button block brand-color class="menu-button" (click)="goToContactPage()">
       CONTACT
     </button>
+</div>
         <div half-padding>
-            <ion-icon name="close" style="font-size: 4.2em;position: absolute" color="primary" (click)="dismiss()"></ion-icon>
+            <ion-icon name="close" style="font-size: 3.2em;position: absolute" color="primary" (click)="dismiss()"></ion-icon>
             <div class="center">
                 <img src="assets/imgs/sdt.png" style="width: 75%;">
             </div>

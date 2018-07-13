@@ -5,17 +5,70 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
-    <ion-navbar>
-        <button ion-button (click)="openCustomMeun()">
-  <ion-icon name="menu"></ion-icon>
-</button>
-        <ion-title>Informational Quiz</ion-title>
-    </ion-navbar>
-
+  <ion-navbar>
+    <ion-buttons left (click)="openCustomMeun()" style="position: absolute;top: 0;">
+      <button ion-button icon-only class="bigger-icon">
+        <ion-icon name="menu" color="primary"></ion-icon>
+      </button>
+    </ion-buttons>
+    <ion-title>
+      <img src="../assets/imgs/header.png">
+      <div class="center" style="position: absolute;
+            top: 15px;width: 100%">
+        <img src="assets/imgs/sdt.png" style="width: 75%;">
+      </div>
+      <div class="center" style="position: absolute;
+                  top: 70px;width: 100%">
+        <img src="assets/imgs/crypto.png" style="width: 40%;">
+      </div>
+    </ion-title>
+  </ion-navbar>
 </ion-header>
 
 
-<ion-content padding>
+<ion-content #content>
+  <div class="quiz3-body">
+    <p class="quiz3">
+      It was created in 2014 as a superior alternative to Bitcoin, imagining faster, more secure cryptocurrency that reaches a
+      wider community.
+    </p>
+  </div>
+
+  <div class="quiz3-content-body">
+
+    <div class="options-body" *ngFor="let i of [1,2,3,4]">
+      <div class="options">Digibyte</div>
+    </div>
+
+    <div style="right: 7%;
+    position: absolute;">
+      <div class="actions-key ion-button">
+        <img src="../assets/imgs/skep.png" style="padding: 5px;width: 30px;height: 40px;">
+      </div>
+
+      <div class="actions-key ion-button">
+        <img src="../assets/imgs/cut.png" style="padding: 10px 7px;height: 40px; width: 40px;">
+      </div>
+    </div>
+  </div>
+
+  <div style="position: absolute;
+  left: -2%;">
+        <img src="../assets/imgs/token.png" style="padding: 5px;
+        height:87px;">
+        <p style="position: absolute;
+        top: -10px;
+        left: 45%;
+        font-family: HelveticaNeue-Thin;
+        font-size: 36px;
+        color: #4a90e2;
+        line-height: 17px;
+        letter-spacing: 0;
+        text-align: center;">50<br><span style="font-family:HelveticaNeue;
+        font-size:17px;
+        color:#4a90e2;
+        letter-spacing:0;
+        text-align:center;">Tokens</span></p>
+    </div>
 
 </ion-content>

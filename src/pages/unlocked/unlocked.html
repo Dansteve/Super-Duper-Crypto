@@ -5,21 +5,40 @@
   Ionic pages and navigation.
 -->
 <ion-header>
-
-    <ion-navbar>
+        <ion-navbar>
         <ion-title>
-            <div class="center">
-                <img src="assets/imgs/sdt.png" style="width: 75%;">
-            </div>
-            <div class="center">
-                <img src="assets/imgs/crypto.png" style="width: 50%;">
-            </div>
+            <img src="../assets/imgs/blank.png">
+            <div class="center" style="position: absolute;
+            top: 15px;width: 100%">
+                    <img src="assets/imgs/sdt.png" style="width: 75%;">
+                    </div>
+                  <div class="center" style="position: absolute;
+                  top: 70px;width: 100%">
+                    <img src="assets/imgs/crypto.png" style="width: 40%;">
+                  </div>
         </ion-title>
     </ion-navbar>
-
 </ion-header>
 
 
-<ion-content padding>
+
+<ion-content padding center>
+  <div style="font-family:HelveticaNeue-Light;
+        font-size:18px;
+        color:#000000;
+        letter-spacing:0;
+        text-align:center;">UNLOCKED - Did You Know?</div>
+
+  <div class="card-1" padding center *ngFor="let i of [1,2,3,4,5,6]">
+    <div class="unlocked-title" style="margin-bottom: 15px;">
+      DAO<br>
+     (Decentralized Autonomous Organizations)
+    </div>
+    <div class="divide"></div>
+    <div class="unlocked-body">
+            An organization that operates through rules encoded as smart contracts. A DAO could be thought of as an effective democratic, financial system with safeguards in place to protect its 
+            members.
+    </div>
+  </div>
 
 </ion-content>

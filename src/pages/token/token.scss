@@ -1,11 +1,29 @@
 page-token {
-    .toolbar {
-        min-height: 110px;
-    }
-    .back-button {
-        z-index: 1;
-    }
-    .toolbar-content {
-        position: absolute;
-    }
+  .toolbar {
+    min-height: 110px;
+  }
+  .back-button {
+    z-index: 1;
+  }
+  .toolbar-content {
+    position: absolute;
+  }
+  .card-1 {
+    background-image: linear-gradient(-180deg, #565ab9 0%, #71a9d5 99%);
+    border-radius: 13px;
+    height: 109px;
+    margin: 20px 0px;
+  }
+  .token{
+    font-family:HelveticaNeue-Light;
+    font-size:23px;
+    color:#ffffff;
+    letter-spacing:0;
+    text-align:center;
+  }
+  .scroll-content {
+    background: url("../assets/imgs/backgound.png");
+    background-size: cover;
+    padding: 26px 46px !important;
+}
 }
